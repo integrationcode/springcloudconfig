@@ -46,8 +46,8 @@ spring:
   profiles: qa
    
 employee-service:
-  defaultFirstName: DefaultFirst-QAA
-  defaultLastName: DefaultLast-QAA
+  defaultFirstName: DefaultFirst-QAAssurance
+  defaultLastName: DefaultLast-QAAssurance
 
 ---
 
