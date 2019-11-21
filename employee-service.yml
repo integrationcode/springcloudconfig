@@ -28,9 +28,6 @@ management:
         include:
         - "*" 
 
-server:
-  port: 8100
-
 ---
 
 spring:
