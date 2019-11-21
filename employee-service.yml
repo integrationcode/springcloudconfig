@@ -20,7 +20,14 @@ spring:
 logging:
   file:
     name: /tmp/sblog/employee.log
-  
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*" 
+
 server:
   port: 8100
 
