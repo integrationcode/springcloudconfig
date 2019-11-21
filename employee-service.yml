@@ -1,4 +1,7 @@
 spring:
+  profiles:
+    active:
+    - dev
   datasource:
     hikari:
       jdbc-url: jdbc:h2:file:~/employeedb;AUTO_SERVER=true
@@ -21,7 +24,30 @@ logging:
   
 server:
   port: 8100
-    
+
+---
+
+spring:
+  profiles: dev
+   
+employee-service:
+  defaultFirstName: DefaultFirst-DEV
+  defaultLastName: DefaultLast-DEV
+
+---
+
+spring:
+  profiles: qa
+   
+employee-service:
+  defaultFirstName: DefaultFirst-QA
+  defaultLastName: DefaultLast-QA
+
+---
+
+spring:
+  profiles: prod
+   
 employee-service:
   defaultFirstName: DefaultFirst
   defaultLastName: DefaultLast
