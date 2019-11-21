@@ -1,7 +1,6 @@
 spring:
   profiles:
-    active:
-    - dev
+    active: "dev"
   datasource:
     hikari:
       jdbc-url: jdbc:h2:file:~/employeedb;AUTO_SERVER=true
