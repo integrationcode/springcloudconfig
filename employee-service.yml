@@ -16,7 +16,11 @@ spring:
       ddl-auto: none
   flyway:
     baseline-on-migrate: true
-  
+  rabbitmq:
+    host: http://10.142.128.48
+    port: 5672
+    username: guest
+    password: guest
 logging:
   file:
     name: /tmp/sblog/employee.log
