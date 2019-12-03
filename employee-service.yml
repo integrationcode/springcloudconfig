@@ -48,7 +48,7 @@ spring:
    
 employee-service:
   defaultFirstName: DefaultFirst-QualityAssurance
-  defaultLastName: DefaultLast-QAAssurance
+  defaultLastName: DefaultLast-QA
 
 ---
 
