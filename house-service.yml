@@ -16,6 +16,7 @@ spring:
    
 house-service:
   houseNumber: India
+  houseStreet: Pune
 
 ---
 
@@ -24,6 +25,7 @@ spring:
    
 house-service:
   houseNumber: DefaultFirst-Quality
+  houseStreet: Delhi
 
 ---
 
@@ -32,3 +34,4 @@ spring:
    
 house-service:
   houseNumber: DefaultFirst
+  houseStreet: Gurgaon
